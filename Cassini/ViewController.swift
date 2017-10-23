@@ -23,12 +23,6 @@ class ViewController: UIViewController {
     
     //MARK: View Controller Lifecycle
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        imageURL = DemoURL.standford
-        
-    }
-    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         if image == nil {
@@ -59,7 +53,6 @@ class ViewController: UIViewController {
             scrollView?.contentSize = imageView.frame.size
         }
     }
-    
     
     //MARK: User Interface
     
