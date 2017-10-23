@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2334AF0E1F9DF83F002DB5F7 /* DemoURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2334AF0D1F9DF83F002DB5F7 /* DemoURL.swift */; };
 		23FA063D1F9A2B4B00D8B998 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FA063C1F9A2B4B00D8B998 /* AppDelegate.swift */; };
 		23FA063F1F9A2B4B00D8B998 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FA063E1F9A2B4B00D8B998 /* ViewController.swift */; };
 		23FA06421F9A2B4B00D8B998 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23FA06401F9A2B4B00D8B998 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2334AF0D1F9DF83F002DB5F7 /* DemoURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoURL.swift; sourceTree = "<group>"; };
 		23FA06391F9A2B4B00D8B998 /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23FA063C1F9A2B4B00D8B998 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23FA063E1F9A2B4B00D8B998 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2334AF0F1F9DF85A002DB5F7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				23FA063C1F9A2B4B00D8B998 /* AppDelegate.swift */,
+				23FA06431F9A2B4B00D8B998 /* Assets.xcassets */,
+				23FA06451F9A2B4B00D8B998 /* LaunchScreen.storyboard */,
+				23FA06481F9A2B4B00D8B998 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		23FA06301F9A2B4B00D8B998 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +67,10 @@
 		23FA063B1F9A2B4B00D8B998 /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
-				23FA063C1F9A2B4B00D8B998 /* AppDelegate.swift */,
 				23FA063E1F9A2B4B00D8B998 /* ViewController.swift */,
+				2334AF0D1F9DF83F002DB5F7 /* DemoURL.swift */,
 				23FA06401F9A2B4B00D8B998 /* Main.storyboard */,
-				23FA06431F9A2B4B00D8B998 /* Assets.xcassets */,
-				23FA06451F9A2B4B00D8B998 /* LaunchScreen.storyboard */,
-				23FA06481F9A2B4B00D8B998 /* Info.plist */,
+				2334AF0F1F9DF85A002DB5F7 /* Resources */,
 			);
 			path = Cassini;
 			sourceTree = "<group>";
@@ -139,6 +150,7 @@
 			files = (
 				23FA063F1F9A2B4B00D8B998 /* ViewController.swift in Sources */,
 				23FA063D1F9A2B4B00D8B998 /* AppDelegate.swift in Sources */,
+				2334AF0E1F9DF83F002DB5F7 /* DemoURL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +314,7 @@
 				23FA064D1F9A2B4B00D8B998 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
