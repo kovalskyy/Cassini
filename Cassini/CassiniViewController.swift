@@ -15,7 +15,7 @@ class CassiniViewController: UIViewController, UISplitViewControllerDelegate {
         splitViewController?.delegate = self
     }
 
-   // MARK: - Navigation
+   //MARK: Navigation
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let url = DemoURL.NASA[segue.identifier ?? ""] {
